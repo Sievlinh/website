@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop page</title>
+        <link rel="stylesheet" href="shop.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+        <body>
+            <div class="container">
+                <div class="header">
+                    <img src="assets-shop/Logo.png" class="logo" alt="Lil'Greens Logo">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop-all.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="join.html" id="join"  class="join-btn">Join Us</a></li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="main">
+                    <img src="assets-shop/Group 25.png" alt="Free Eco Bag" class="responsive-banner">
+                    <div class="category">
+                        <br>
+                        <h2 id="order">Our Product</h2>
+                        <div class="nav">
+                            <ul>
+                                <li><a1 href="shop-all.html" class="join-btn">All Product</a1></li>
+                                <li><a href="shop-veg.html">Vegetable</a></li>
+                                <li><a href="shop-fruit.html">Fruit</a></li>
+                                <li><a href="shop-meat.html">Meat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/broccoli.png" alt="Product">
+                                    <div class="card-title">Broccoli</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/cucumber.png" alt="Product">
+                                    <div class="card-title">Cucumber</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/tomatoes.png" alt="Product">
+                                    <div class="card-title">Tomatoes</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/corn.png" alt="Product">
+                                    <div class="card-title">Organic Corn</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/baby-corn.png" alt="Product">
+                                    <div class="card-title">Baby Corn</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/chill-paper.png" alt="Product">
+                                    <div class="card-title">Chilli Pepper</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/asparagus.png" alt="Product">
+                                    <div class="card-title">Asparagus</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/eggplant.png" alt="Product">
+                                    <div class="card-title">Eggplant</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/green-beans.png" alt="Product">
+                                    <div class="card-title">Green Beans</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Baby dok choy.png" alt="Product">
+                                    <div class="card-title">Baby Dok Choy</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Snow Peas.png" alt="Product">
+                                    <div class="card-title">Snow Peas</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/grapes.png" alt="Product">
+                                    <div class="card-title">Grapes</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/goldenfigs.png" alt="Product">
+                                    <div class="card-title">Golden Figs</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/blueberries.png" alt="Product">
+                                    <div class="card-title">Blue Berries</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/blackberries.png" alt="Product">
+                                    <div class="card-title">Black Berries</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/apple.png" alt="Product">
+                                    <div class="card-title">Apple</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/orange.png" alt="Product">
+                                    <div class="card-title">Orange</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/strawberry.png" alt="Product">
+                                    <div class="card-title">Strawberry</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/green-apple.png" alt="Product">
+                                    <div class="card-title">Green Apple</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Slice beef meat.png" alt="Product">
+                                    <div class="card-title">Slice Beef Meat</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Meat sausages.png" alt="Product">
+                                    <div class="card-title">Meat Sausages</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Chicken drumstick.png" alt="Product">
+                                    <div class="card-title">Chicken Drumstick</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Sausages.png" alt="Product">
+                                    <div class="card-title">Sausages</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Beef meat.png" alt="Product">
+                                    <div class="card-title">Beef Meat</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Marbled beef.png" alt="Product">
+                                    <div class="card-title">Marbled Beef</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Salmon.png" alt="Product">
+                                    <div class="card-title">Salmon</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Chicken fullet.png" alt="Product">
+                                    <div class="card-title">Chicken Fullet</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <img src="assets-shop/Champignon.png" alt="Product">
+                                    <div class="card-title">Champignon</div>
+                                    <div class="card-price">$5.00</div>
+                                    <select class="dropdown">
+                                        <option>15 g</option>
+                                        <option>30 g</option>
+                                    </select>
+                                        <button><i class="ri-shopping-cart-2-line"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+                <div class="shopping-cart">
+                    <li><a href="shop-cart.html" style="text-decoration: none"><i class="ri-shopping-bag-line icon"></i></a></li>
+                </div>
+                <footer>
+                    <div class="footer-section">
+                      <h3>Members</h3>
+                      <p>Kimheng</p>
+                      <p>Sievlinh</p>
+                      <p>Pagna</p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Contacts</h3>
+                      <p>📞 +123 456 789</p>
+                      <p>📱 @LIL's_Greens</p>
+                      <p>📧 Lils_Greens@blossom.com</p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Location</h3>
+                      <p>221B Baker Street, London</p>
+                      <p>NW1 6XE, United Kingdom</p>
+                    </div>
+                    <div class="footer-section">
+                      <h3>Customers</h3>
+                      <p>Return Policy</p>
+                      <p>Email Reference</p>
+                      <p>Student Discount</p>
+                    </div>
+                  </footer>
+            </div>
+        </body>
+</html>
